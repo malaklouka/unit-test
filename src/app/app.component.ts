@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'testUnitaire';
+  totalVotes:  any = 4;
+  upVote(){
+    this.totalVotes++
+  }
 }
